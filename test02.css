@@ -1,0 +1,90 @@
+body{
+    background-color: hsl(0, 11%, 75%);
+  }
+  
+  /*Even type qustion answers */
+  
+  
+  /*1.Achive using html make it is red*/
+  
+  
+  label span{
+    color: red;
+  }
+  
+  
+  /*2.Dropdown select should have shadow*/
+  
+  .FormA select{
+    box-shadow: 6px 6px 25px rgb(2, 53, 2);
+  }
+  
+  /*3.Dropdown value have altertive colors.*/
+  
+  .FormA option:nth-child(odd){
+    background-color:gray;
+    color:darkgreen; }
+  
+  
+    .FormA option:nth-child(even){
+      background-color:#3e3d34;
+      color: lavenderblush
+    
+  }
+  
+  /*4.Mandatory labels first letter should be bolder than other characters.*/
+  
+  .FormA p::first-letter{
+    font-weight: bolder;
+    
+  }
+  
+  /*5.Check box selected should change the color of the text to red.*/
+  
+  .FormA input[type="checkbox"]:checked + label{
+    color: red;
+    font-weight: bolder;
+  }
+  
+  
+  
+  
+  /*-----ODD questions answers------*/
+  
+  /* 1.Add (*) and make it color blue in css */
+  
+  .FormB label[class="star"]::after{
+    content: "*";
+    font-weight: bolder;
+    color: red;
+  
+  }
+  
+  
+  
+  /* 2.Mandatory message ("Required" attribute given in the mandatory input element) */
+  
+  
+  
+  
+  
+  
+  
+  /* 3.Onclick input field make it border highlight . */
+   
+  .FormB input[type="Submit"]:focus{
+    border: 2px solid red;
+    padding: 2px 2px;
+  }
+  
+  
+  /* 4/5.Whenever moushover on mandarory label show color green and non mandarory label show color yellow */
+  
+  .FormB label:hover{
+    color: green;
+  }
+  
+  .FormB label[for="city"]:hover{
+    color: yellow;
+    font-size: 18px;
+  }
