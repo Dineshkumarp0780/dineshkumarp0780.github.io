@@ -1,0 +1,40 @@
+@import "variable";
+@import "button";
+@import "colors";
+
+body{
+    font-family: $font-family;
+}
+
+
+//Nested Rules
+h2{
+    color:map-get($colors, "primary");
+}
+
+nav{
+    background-color: #222;
+    padding: 10px;
+    a{
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 10px;
+        color: #fff;
+    }
+}
+
+p{
+    line-height: 30px;
+    text-indent: 30px;
+    a{
+        text-decoration: none;
+        color:tomato;
+    }
+}
+
+.title{
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color:#333;
+}

@@ -1,0 +1,35 @@
+//Maps
+$colors:(
+    "primary":#0444,
+    "success": #198754,
+    "danger": #ea162b,
+    "info": #0dcaf0,
+    "warning": #ffc107,
+
+);
+
+// @debug map-get($colors, "primary");
+// @debug map-has-key($colors, "success");
+
+
+//each control directive
+
+@each $key,$val in $colors{
+    .text-#{$key}{
+        color:$val;
+    }
+    .bg-#{$key}{
+        background-color: $val;
+    }
+    @for $i from 1 through 3{
+        .text-#{$key}-light-#{$i}{
+            color:lighten($val,$i*10);
+        }
+        .bg-#{$key}-light-#{$i}{
+            background-color: lighten($val, $i*10);
+        }
+    }
+}
+.text-white{
+    color:#fff;
+}

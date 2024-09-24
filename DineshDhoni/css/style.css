@@ -1,0 +1,221 @@
+.btn {
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background: rgb(227, 217, 19);
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #8a8659;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: rgba(221, 204, 51, 0.3333333333);
+  color: #fff;
+}
+
+.text-primary {
+  color: rgba(0, 68, 68, 0.2666666667);
+}
+
+.bg-primary {
+  background-color: rgba(0, 68, 68, 0.2666666667);
+}
+
+.text-primary-light-1 {
+  color: rgba(0, 119, 119, 0.2666666667);
+}
+
+.bg-primary-light-1 {
+  background-color: rgba(0, 119, 119, 0.2666666667);
+}
+
+.text-primary-light-2 {
+  color: rgba(0, 170, 170, 0.2666666667);
+}
+
+.bg-primary-light-2 {
+  background-color: rgba(0, 170, 170, 0.2666666667);
+}
+
+.text-primary-light-3 {
+  color: rgba(0, 221, 221, 0.2666666667);
+}
+
+.bg-primary-light-3 {
+  background-color: rgba(0, 221, 221, 0.2666666667);
+}
+
+.text-success {
+  color: #198754;
+}
+
+.bg-success {
+  background-color: #198754;
+}
+
+.text-success-light-1 {
+  color: rgb(32.96875, 178.03125, 110.775);
+}
+
+.bg-success-light-1 {
+  background-color: rgb(32.96875, 178.03125, 110.775);
+}
+
+.text-success-light-2 {
+  color: rgb(45.75, 216.25, 137.2);
+}
+
+.bg-success-light-2 {
+  background-color: rgb(45.75, 216.25, 137.2);
+}
+
+.text-success-light-3 {
+  color: rgb(88.78125, 224.21875, 161.425);
+}
+
+.bg-success-light-3 {
+  background-color: rgb(88.78125, 224.21875, 161.425);
+}
+
+.text-danger {
+  color: #ea162b;
+}
+
+.bg-danger {
+  background-color: #ea162b;
+}
+
+.text-danger-light-1 {
+  color: rgb(238.2165354331, 68.7834645669, 85.5669291339);
+}
+
+.bg-danger-light-1 {
+  background-color: rgb(238.2165354331, 68.7834645669, 85.5669291339);
+}
+
+.text-danger-light-2 {
+  color: rgb(242.4330708661, 115.5669291339, 128.1338582677);
+}
+
+.bg-danger-light-2 {
+  background-color: rgb(242.4330708661, 115.5669291339, 128.1338582677);
+}
+
+.text-danger-light-3 {
+  color: rgb(246.6496062992, 162.3503937008, 170.7007874016);
+}
+
+.bg-danger-light-3 {
+  background-color: rgb(246.6496062992, 162.3503937008, 170.7007874016);
+}
+
+.text-info {
+  color: #0dcaf0;
+}
+
+.bg-info {
+  background-color: #0dcaf0;
+}
+
+.text-info-light-1 {
+  color: rgb(59.5849802372, 213.4743083004, 244.4150197628);
+}
+
+.bg-info-light-1 {
+  background-color: rgb(59.5849802372, 213.4743083004, 244.4150197628);
+}
+
+.text-info-light-2 {
+  color: rgb(107.9644268775, 223.7549407115, 247.0355731225);
+}
+
+.bg-info-light-2 {
+  background-color: rgb(107.9644268775, 223.7549407115, 247.0355731225);
+}
+
+.text-info-light-3 {
+  color: rgb(156.3438735178, 234.0355731225, 249.6561264822);
+}
+
+.bg-info-light-3 {
+  background-color: rgb(156.3438735178, 234.0355731225, 249.6561264822);
+}
+
+.text-warning {
+  color: #ffc107;
+}
+
+.bg-warning {
+  background-color: #ffc107;
+}
+
+.text-warning-light-1 {
+  color: rgb(255, 205.75, 58);
+}
+
+.bg-warning-light-1 {
+  background-color: rgb(255, 205.75, 58);
+}
+
+.text-warning-light-2 {
+  color: rgb(255, 218.5, 109);
+}
+
+.bg-warning-light-2 {
+  background-color: rgb(255, 218.5, 109);
+}
+
+.text-warning-light-3 {
+  color: rgb(255, 231.25, 160);
+}
+
+.bg-warning-light-3 {
+  background-color: rgb(255, 231.25, 160);
+}
+
+.text-white {
+  color: #fff;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+h2 {
+  color: rgba(0, 68, 68, 0.2666666667);
+}
+
+nav {
+  background-color: #222;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+p {
+  line-height: 30px;
+  text-indent: 30px;
+}
+p a {
+  text-decoration: none;
+  color: tomato;
+}
+
+.title {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+/*# sourceMappingURL=style.css.map */
