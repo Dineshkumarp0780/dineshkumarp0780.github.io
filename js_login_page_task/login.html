@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance App</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h1>Attendance App</h1>
+    <form id="attendanceForm">
+    <div>
+        <label id="login" for="date">Date:</label>
+        <input type="date" id="date" required>
+    </div>
+        <br>
+    <div>
+        <label id="login" for="course">Course:</label>
+        <input type="text" id="course" required>
+    </div>
+        <br>
+    <div>   
+        <label id="login" for="candidates">Candidates:</label>
+        <textarea id="candidates" rows="5" cols="30" required style="border-color:aquamarine"></textarea>
+    </div> 
+        <br>
+        <button id="login" type="submit">Submit</button>
+    </form>
+    <div id="attendanceList" id="login"></div>
+    <script src="login.js"></script>
+
+</body>
+</html>
